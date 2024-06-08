@@ -1,0 +1,96 @@
+.my-header {
+    background-color: #ffc107;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title {
+    font-size: 25px;
+    font-family: cursive;
+    color: black;
+    margin-left: 20px;
+}
+
+.logo{
+    height:70px;
+    width: 70px;
+    margin-left: 20px;
+}
+.searchbar{
+    margin: 0 auto;
+    width: 600px;
+}
+
+
+.navButton{
+    color: yellowgreen;
+    background-color: midnightblue;
+    margin: 20px 40px
+}
+.mainPart{
+    margin: 0 40px;
+}
+
+.productPic{
+    height: 400px;
+    width: 100%;
+    margin-top: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+    filter: brightness(1);
+}
+.productPic:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+.titlePosition{
+    position: absolute;
+}
+
+.cardHeight{
+    height: 690px;
+}
+.picHeight{
+    height: 300px;
+}
+.cartPic{
+    height: 70px;
+    width: 100px;
+}
+.listHeight{    line-height: normal;
+
+}
+.cardIndex{
+    z-index: 1 ;
+}
+.cardWidth{
+    width: 488px;
+}
+
+.productDetailPic{
+    height: 500px;
+    width: 500px;
+    margin-top: 80px;
+    float: left;
+    position: relative;
+}
+
+.detailTable{
+    margin: 130px;
+    width: max-content;
+}
+.informationTitle{
+    text-align: center;
+    font-weight: bold;
+    background-color: #ffc107;
+}
+.emailPageTable{
+    height: fit-content;
+}
+.disableBtn.disabled, .disableBtn:disabled {
+    background-color: grey;
+    border-color: grey;
+    cursor: not-allowed;
+    opacity: 0.65;
+}
